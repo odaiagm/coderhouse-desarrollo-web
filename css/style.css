@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f8e3f5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 4px dotted #f035d4;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #ec78db;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 12px;
+}
+
+.carousel {
+    display: grid;
+    justify-items: center;
+    padding: 3%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #ec78db;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+p {
+    text-align: center;
+    margin: 5rem;
+    color: #f035d4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+
+.cv img {
+    display: block;
+    margin: 0 auto;
+}
+
+.reel {
+    display: grid;
+    align-items: center;
+    padding: 3%;
+}
+
+
+textarea {
+    height: 280px;
+    width: 320px;
+}
+
+
+form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ec78db;
+    margin-left: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 150px;
+}
+
+.copyright {
+    color: #ec78db;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.odaia-header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#ec78db;
+    font-weight: bolder;
+    font-size:x-large;
+    text-decoration: underline overline;
+}
+
+form {
+    padding: 5%;
+
+}
+
+iframe span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+iframe {
+    padding: 1%;
+    margin: 2%;
+
+}
+
+.ver-mas a {
+    text-decoration: none;
+    background-color: #f035d4;
+    color: white;
+    font-size: x-large;
+    margin-left: 3%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
