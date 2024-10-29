@@ -32,29 +32,21 @@
 
     <h1>¡Escribime!</h1>
 
-    <form action="/submit" method="post">
-        <label for="nombre y apellido">Nombre y Apellido:</label> 
-        <br>
-        <input type="text" name="nombre y apellido" id="nombre y apellido">
-        <br>
-        <br>
+    <form action="/submit" method="post" class="responsive-form">
+        
+        <label for="nombre y apellido">Nombre y Apellido:</label>  
+        <input type="text" name="nombre y apellido" id="nombre y apellido" required>
+      
         <label for="email">Email:</label>
-        <br>
-        <input type="email" name="email" id="email">
-        <br>
-        <br>
+        <input type="email" name="email" id="email" required>
+        
         <label for="telefono">Teléfono (opcional):</label>
-        <br>
         <input type="tel" name="telefono" id="telefono">
-        <br>
-        <br>
+       
         <label for="instagram">Instagram</label>
-        <br>
         <input type="text" name="instagram" id="instagram">
-        <br>
-        <br>
+      
         <label for="pais">País</label>
-        <br>
         <select name="" id="pais">
             <option value="United States">United States</option>
             <option value="Afghanistan">Afghanistan</option>
@@ -296,13 +288,10 @@
             <option value="Zambia">Zambia</option>
             <option value="Zimbabwe">Zimbabwe</option>
         </select>
-        <br>
-        <br>
+      
         <label for="mensaje">Mensaje:</label>
-        <br>
-        <textarea name="mensaje" id="mensaje"></textarea>
-        <br>
-        <br>
+        <textarea name="mensaje" id="mensaje" required></textarea>
+      
         <input type="submit" value="Enviar">
 
     </form>
