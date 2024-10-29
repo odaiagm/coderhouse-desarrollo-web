@@ -13,8 +13,9 @@ header {
     flex-direction: row;
     padding: 2%;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
     border-bottom: 4px dotted #f035d4;
+    flex-wrap: wrap;
 }
 
 header ul {
@@ -41,12 +42,48 @@ header a {
     text-decoration: underline overline;
 }
 
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    header ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    header a {
+        margin: 8px; 
+    }
+}
+
 
 .carousel {
     display: grid;
     justify-items: center;
     padding: 3%;
 }
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; 
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        padding: 2%; 
+    }
+
+    .carousel-item {
+        max-width: 100%; 
+    }
+}
+
+
+
 
 h1 {
     text-align: center;
