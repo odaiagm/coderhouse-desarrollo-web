@@ -1,0 +1,37 @@
+.biografia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "item-1 item-3"
+    "item-2 item-3";
+    padding: 2rem;
+}
+
+.item-1 {
+grid-area: item-1;
+margin-right: 2rem;
+}
+
+.item-2 {
+grid-area: item-2;
+margin-right: 2rem;
+}
+
+.item-3 {
+grid-area: item-3;
+margin-left: 2rem;
+}
+
+.biografia p {
+    padding: 4px;
+    margin: 4px;
+    align-items: center;
+}
+
+.bio-img {
+    width: 100%;
+    height: auto;}
+
+
+    

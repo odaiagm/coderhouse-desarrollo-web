@@ -1,0 +1,32 @@
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 3rem;
+            right: 3rem;
+            width: 90%;
+            height: 90%;
+            border: 0;
+        }
+}
+
+.ver-mas a {
+    text-decoration: none;
+    background-color: $color-secundario;
+    color: white;
+    font-size: x-large;
+    margin-left: 3%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ver-mas a:hover {
+    background-color: white;
+    color: $color-secundario;
+}

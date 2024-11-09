@@ -1,0 +1,48 @@
+$fuente-principal: 'Trebuchet MS';
+$color-principal: #ec78db;
+$color-secundario: #f035d4;
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 4px dotted $color-secundario;
+    flex-wrap: wrap;
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+            color: $color-principal;
+            font-family: $fuente-principal;
+            margin: 12px;
+        }
+        .odaia-header {
+            font-family: $fuente-principal;
+            color:$color-principal;
+            font-weight: bolder;
+            font-size:x-large;
+            text-decoration: underline overline;
+        }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    header ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    header a {
+        margin: 8px; 
+    }
+}

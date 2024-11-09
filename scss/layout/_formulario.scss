@@ -1,0 +1,25 @@
+form {
+    color: $color-principal;
+    font-family: $fuente-principal;
+}
+
+.responsive-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 2rem;
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input,
+        select,
+        textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+}
