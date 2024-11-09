@@ -1,3 +1,7 @@
+$fuente-principal: 'Trebuchet MS';
+$color-principal: #ec78db;
+$color-secundario: #f035d4;
+
 *{
     margin: 0;
     padding: 0;
@@ -5,25 +9,24 @@
 
 body {
     background-color: #f8e3f5;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: $fuente-principal;
 }
 
 
 a {
     text-decoration: none;
+    color: $color-principal;
 }
 
 h1 {
     text-align: center;
     margin-top: 3%;
     margin-bottom: 3%;
-    color: #ec78db;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    color: $color-secundario;
 }
 
 p {
     text-align: center;
     margin: 5rem;
-    color: #f035d4;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: $color-secundario;
 }
