@@ -1,4 +1,5 @@
 @import './base/reset';
+@import './utilities/variables';
 @import './layout/header';
 @import './layout/biografia';
 @import './layout/cv';
@@ -6,4 +7,4 @@
 @import './layout/footer';
 @import './components/carousel';
 @import './components/videos';
-@import './media-queries/media-mobile'
+@import './media-queries/media-mobile';
