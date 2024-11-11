@@ -13,14 +13,14 @@ $color-secundario: #f035d4;
     width: 100%;
 }
 
-.ver-mas a:hover {
+.ver-mas:hover {
     background-color: white;
     color: $color-secundario;
 }
 
-
 .boton-enviar {
-   @extend .ver-mas
+   @extend .ver-mas;
+   margin: 0;
 }
 
 .boton-enviar:hover {

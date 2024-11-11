@@ -131,9 +131,13 @@ form {
   width: 100%;
 }
 
-.ver-mas a:hover, .boton-enviar a:hover {
+.ver-mas:hover, .boton-enviar:hover {
   background-color: white;
   color: #f035d4;
+}
+
+.boton-enviar {
+  margin: 0;
 }
 
 .boton-enviar:hover {
