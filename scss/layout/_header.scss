@@ -1,3 +1,7 @@
+$fuente-principal: 'Trebuchet MS';
+$color-principal: #f47eea;
+$color-secundario: #eb0cca;
+
 header {
     display: flex;
     flex-direction: row;
@@ -9,13 +13,16 @@ header {
         ul {
             display: flex;
             list-style-type: none;
+            
+            a {
+                text-decoration: none;
+                color: $color-principal;
+                font-family: $fuente-principal;
+                margin: 12px;
+            }
         }
-        a {
-            text-decoration: none;
-            color: $color-principal;
-            font-family: $fuente-principal;
-            margin: 12px;
-        }
+        
+
         .odaia-header {
             font-family: $fuente-principal;
             color:$color-secundario;
