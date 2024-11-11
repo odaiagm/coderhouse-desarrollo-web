@@ -51,6 +51,12 @@ header .odaia-header {
   font-weight: bolder;
   font-size: x-large;
   text-decoration: underline overline;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: heartBeat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .biografia {
@@ -153,6 +159,19 @@ footer {
 footer .copyright {
   color: #ec78db;
   font-family: "Trebuchet MS";
+}
+
+.logo-ig {
+  right: 35px;
+  bottom: 50px;
+  transition: 2s;
+  animation-name: rotar;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+.logo-ig:hover {
+  transform: rotate(360deg);
 }
 
 .carousel {

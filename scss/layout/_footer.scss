@@ -9,3 +9,18 @@ footer {
     }
 }
 
+.logo-ig {
+    right: 35px;
+    bottom: 50px;
+    transition: 2s;
+
+
+    animation-name: rotar;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-duration: 2s;
+    &:hover{
+        transform: rotate(360deg);
+    }
+}
+

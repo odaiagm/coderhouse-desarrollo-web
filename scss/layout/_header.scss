@@ -29,5 +29,12 @@ header {
             font-weight: bolder;
             font-size:x-large;
             text-decoration: underline overline;
+
+            display: inline-block;
+            margin: 0 0.5rem;
+            animation: heartBeat;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
         }
 }
