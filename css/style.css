@@ -110,9 +110,8 @@ form {
 .responsive-form label {
   margin-bottom: 5px;
 }
-.responsive-form input,
-.responsive-form select,
-.responsive-form textarea {
+
+input, select, textarea {
   margin-bottom: 15px;
   padding: 10px;
   border: 1px solid #ccc;

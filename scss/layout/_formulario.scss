@@ -13,14 +13,17 @@ form {
             margin-bottom: 5px;
         }
 
-        input,
-        select,
-        textarea {
+}
+
+@mixin formulario {
             margin-bottom: 15px;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
             width: 100%;
-        }
+}
+
+input, select,textarea {
+    @include formulario;
 }
 
